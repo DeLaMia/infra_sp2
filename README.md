@@ -34,7 +34,7 @@ sudo docker-compose exec web python manage.py collectstatic --no-input
 ```
 sudo docker-compose exec web python manage.py dumpdata > fixtures.json
 ```
-либо загрузить в базу данные из файла, например файл fixtures.json в папке с Dockerfile:
+либо загрузить в базу данные из файла, например разместив файл fixtures.json в папке проекта с manage.py:
 ```
 sudo docker-compose exec web python manage.py loaddata fixtures.json
 ```
