@@ -5,12 +5,12 @@
 
 ### Шаблон наполнения env-файла
 #### В директории infra создайте файл .env с переменными окружения для работы с базой данных:
-DB_ENGINE=django.db.backends.postgresql # указываем, что работаем с postgresql
-DB_NAME=postgres # имя базы данных
-POSTGRES_USER=postgres # логин для подключения к базе данных
-POSTGRES_PASSWORD=postgres # пароль для подключения к БД (установите свой)
-DB_HOST=db # название сервиса (контейнера)
-DB_PORT=5432 # порт для подключения к БД
+- DB_ENGINE=django.db.backends.postgresql # указываем, что работаем с postgresql
+- DB_NAME=postgres # имя базы данных
+- POSTGRES_USER=postgres # логин для подключения к базе данных
+- POSTGRES_PASSWORD=postgres # пароль для подключения к БД (установите свой)
+- DB_HOST=db # название сервиса (контейнера)
+- DB_PORT=5432 # порт для подключения к БД
 
 ### Описание команд для запуска приложения в контейнерах
 Для запуска необходимо выполнить из  папки infra/ команду:
